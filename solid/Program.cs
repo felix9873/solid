@@ -130,7 +130,7 @@ public class Logger
 
 
 // principio de inversion de dependencia porque en vez depende de la clases inyectamos la interfaz en el constructor
-//  principio de Segregation interface Principle porque las interfaz estan separada en interfaces mas pequeñas con su respectiva responsabilidad
+//  principio de Segregation interface Principle porque  implementa multiples intefaces con su reponsabilida separada
 public class SistemaReservacion : IReserva, IPago
 {
     private readonly PersistenciaReserva _persistencia;
